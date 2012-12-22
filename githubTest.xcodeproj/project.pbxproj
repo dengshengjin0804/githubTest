@@ -18,6 +18,10 @@
 		65FDD55B168597E30093DAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDD542168597E30093DAB2 /* Foundation.framework */; };
 		65FDD563168597E30093DAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65FDD561168597E30093DAB2 /* InfoPlist.strings */; };
 		65FDD566168597E30093DAB2 /* githubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FDD565168597E30093DAB2 /* githubTestTests.m */; };
+		65FDD57B1685A6300093DAB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FDD5751685A6300093DAB2 /* AppDelegate.m */; };
+		65FDD57C1685A6300093DAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65FDD5761685A6300093DAB2 /* InfoPlist.strings */; };
+		65FDD57D1685A6300093DAB2 /* githubTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65FDD5781685A6300093DAB2 /* githubTest-Info.plist */; };
+		65FDD57E1685A6300093DAB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FDD57A1685A6300093DAB2 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,12 @@
 		65FDD562168597E30093DAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65FDD564168597E30093DAB2 /* githubTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = githubTestTests.h; sourceTree = "<group>"; };
 		65FDD565168597E30093DAB2 /* githubTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githubTestTests.m; sourceTree = "<group>"; };
+		65FDD5741685A6300093DAB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65FDD5751685A6300093DAB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65FDD5771685A6300093DAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65FDD5781685A6300093DAB2 /* githubTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "githubTest-Info.plist"; sourceTree = "<group>"; };
+		65FDD5791685A6300093DAB2 /* githubTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "githubTest-Prefix.pch"; sourceTree = "<group>"; };
+		65FDD57A1685A6300093DAB2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 		65FDD546168597E30093DAB2 /* githubTest */ = {
 			isa = PBXGroup;
 			children = (
+				65FDD5731685A6300093DAB2 /* githubTest */,
 				65FDD54F168597E30093DAB2 /* AppDelegate.h */,
 				65FDD550168597E30093DAB2 /* AppDelegate.m */,
 				65FDD547168597E30093DAB2 /* Supporting Files */,
@@ -141,6 +152,19 @@
 				65FDD561168597E30093DAB2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65FDD5731685A6300093DAB2 /* githubTest */ = {
+			isa = PBXGroup;
+			children = (
+				65FDD5741685A6300093DAB2 /* AppDelegate.h */,
+				65FDD5751685A6300093DAB2 /* AppDelegate.m */,
+				65FDD5761685A6300093DAB2 /* InfoPlist.strings */,
+				65FDD5781685A6300093DAB2 /* githubTest-Info.plist */,
+				65FDD5791685A6300093DAB2 /* githubTest-Prefix.pch */,
+				65FDD57A1685A6300093DAB2 /* main.m */,
+			);
+			name = githubTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FDD54B168597E30093DAB2 /* InfoPlist.strings in Resources */,
+				65FDD57C1685A6300093DAB2 /* InfoPlist.strings in Resources */,
+				65FDD57D1685A6300093DAB2 /* githubTest-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +277,8 @@
 			files = (
 				65FDD54D168597E30093DAB2 /* main.m in Sources */,
 				65FDD551168597E30093DAB2 /* AppDelegate.m in Sources */,
+				65FDD57B1685A6300093DAB2 /* AppDelegate.m in Sources */,
+				65FDD57E1685A6300093DAB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +313,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				65FDD562168597E30093DAB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65FDD5761685A6300093DAB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FDD5771685A6300093DAB2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -418,6 +454,7 @@
 				65FDD56B168597E30093DAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65FDD56C168597E30093DAB2 /* Build configuration list for PBXNativeTarget "githubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +463,7 @@
 				65FDD56E168597E30093DAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
